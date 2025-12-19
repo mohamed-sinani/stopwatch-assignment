@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #000000;
+    background: #ffffff;
 
     display: flex;
     justify-content: center;
@@ -16,7 +16,6 @@ body {
 .container-langu {
     text-align: center;
     background-color: white;
-    padding: 500px;
     border-radius: 25px;
 }
 
