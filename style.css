@@ -16,7 +16,7 @@ body {
 .container-langu {
     text-align: center;
     background-color: white;
-    padding: 100px;
+    padding: 500px;
     border-radius: 25px;
 }
 
@@ -64,3 +64,31 @@ body {
 cursor: pointer;
 
 }
+
+.controls button:hover,
+.reset:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 132, 255, 0.4);
+}
+
+.controls button:active,
+.reset:active {
+    transform: translateY(0) scale(0.95);
+    box-shadow: 0 4px 10px rgba(0, 132, 255, 0.3);
+}
+
+.controls button,
+.reset {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 rgba(0, 132, 255, 0.6); }
+    50% { box-shadow: 0 0 15px rgba(0, 132, 255, 0.6); }
+    100% { box-shadow: 0 0 0 rgba(0, 132, 255, 0.6); }
+}
+
+.controls button:hover {
+    animation: pulse 1s infinite;
+}
+
