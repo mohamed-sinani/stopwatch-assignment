@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #000000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+
+
+.container-langu {
+    text-align: center;
+    background-color: white;
+    padding: 100px;
+    border-radius: 25px;
+}
+
+.title {
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.time-box {
+    background: #0084FF;
+    color: white;
+    width: 220px;
+    padding: 20px;
+    margin: 20px auto;
+    font-size: 28px;
+    border-radius: 4px;
+}
+
+.controls button {
+    background: #0084FF;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    margin: 10px;
+    border-radius: 100px;
+}
+
+
+
+
+.reset {
+    margin-top: 20px;
+    background: #0084FF;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    margin-left: 400px;
+    margin-top: 100px;
+}
